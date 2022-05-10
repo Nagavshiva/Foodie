@@ -52,9 +52,9 @@ const Header = () => {
         <>
             <Navbar bg="dark" variant="dark" style={{ height: "60px"}} sticky="top">
                 <Container>
-                    <NavLink to="/" className="text-decoration-none text-light mx-3"><img src={"https://icon2.cleanpng.com/20180519/khk/kisspng-food-truck-logo-catering-5afff474db09d0.9871857915267237008972.jpg" } alt="My logo" className="imge"/></NavLink>
+                    <img src={"https://icon2.cleanpng.com/20180519/khk/kisspng-food-truck-logo-catering-5afff474db09d0.9871857915267237008972.jpg" } alt="My logo" className="imge me-2"/>
                     <Nav className="me-auto">
-                        <NavLink to="/" className="text-decoration-none text-light">Home</NavLink>
+                        <div className="text-decoration-none text-light">Home</div>
                     </Nav>
 
                     <Badge badgeContent={getdata.length} color="primary"

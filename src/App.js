@@ -4,6 +4,7 @@ import Header from './components/Header';
 import CardsDetails from './components/CardDetails';
 import {Route,Routes} from 'react-router-dom';
 import HomePage from './components/home';
+import Cards from './components/Cards';
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
     <Header/>
    
     <Routes>
-      <Route path='/'  element={<HomePage/>}/>
+      <Route path='/'  element={<Cards/>}/>
       <Route path='/cart/:id'  element={<CardsDetails/>}/>
+      
       
     </Routes>
     </>
